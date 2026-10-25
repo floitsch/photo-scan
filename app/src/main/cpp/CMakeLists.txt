@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+project(lumascan LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+add_library(lumascan SHARED fusion.cpp raster.cpp corners.cpp bridge.cpp)
+target_compile_options(lumascan PRIVATE -O3 -Wall -Wextra)
+target_link_libraries(lumascan android jnigraphics log z)

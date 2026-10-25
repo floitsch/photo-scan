@@ -1,0 +1,17 @@
+.gradle/
+.kotlin/
+.local-build/
+build/
+**/build/
+.cxx/
+local.properties
+*.keystore
+*.jks
+.env
+.env.*
+.agents/
+.codex/
+.aws/
+.idea/
+*.iml
+__pycache__/
